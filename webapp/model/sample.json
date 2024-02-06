@@ -1,0 +1,20 @@
+{
+	"Sales": [{
+		"SalesOrder": "101",
+		"SoldToParty": "Corprate",
+		"CustomerReference": "A",
+		"RequestedDeliveryDate": "15-06-1997",
+		"OveralllStatus": "completed",
+		"editable":false
+
+	}, {
+
+		"SalesOrder": "102",
+		"SoldToParty": "Government",
+		"CustomerReference": "B",
+		"RequestedDeliveryDate": "16-06-1997",
+		"OveralllStatus": "completed",
+		 "editable": false
+
+	}]
+}

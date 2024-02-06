@@ -1,0 +1,32 @@
+/* Enter your custom styles here */
+.apage1{
+    background-color: aqua;
+}
+.bu{
+    font-style: italic;
+    margin-left:45%;
+    width: 26%;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+/* .l1{
+    background-color: rgb(255, 234, 0);
+} */
+.v{
+    background-color: rgb(255, 1, 1);
+    margin-left: 30%;
+    margin-top: 8%;
+    width: 28%;
+    
+}
+form{
+    background-color: rgb(162, 255, 0);
+}

@@ -1,0 +1,9 @@
+<mvc:View controllerName="navdemo.controller.view2"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="Details">
+        <content>
+         <Button text="Go back to Home page...." press="back"></Button>
+        </content>
+    </Page>
+</mvc:View>

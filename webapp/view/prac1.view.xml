@@ -1,0 +1,511 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+ xmlns:core="sap.ui.core"
+  xmlns="sap.m"
+   xmlns:f="sap.ui.layout.form"
+    xmlns:l="sap.ui.layout"
+     xmlns:html="http://www.w3.org/1999/xhtml" controllerName="pracproject1.controller.prac1" displayBlock="true">
+     
+     <Page id="page" title="{i18n>title}" class="page1">
+     
+        <content>
+        
+        <!-- Module 01 - SAMPLE 1 -->
+        <MessageStrip
+				
+				text="Module 01(create a simple Application in SAP UI5)"
+				type="Information"
+				>
+		</MessageStrip>
+
+        <Text text="SAP-UI5"></Text>
+
+        <!-- Module 01 - Sample 2A -->
+        <MessageStrip
+				
+				text="Module 01 (create a simple form using Simple Form Layout)"
+				type="Information"
+				>
+		</MessageStrip>
+
+
+        <f:SimpleForm title=" SimpleForm Layout" MaxContainerCols="2" editable="true" labelSpanM="3">
+
+        <f:content>
+
+        <Label text="Employee Id"></Label>
+        <Input type= "Text" width="300px"></Input>
+
+        <Label text="Employee Name"></Label>
+        <Input type= "Text" width="300px"></Input>
+
+        <Label text="Employee Level"></Label>
+        <Input type= "Text" width="300px"></Input>
+
+        <Label text="Employee Email"></Label>
+        <Input type= "Text" width="300px"></Input>
+
+        <Label text="Employee Ph. number"></Label>
+        <Input type= "Text" width="300px"></Input>
+
+        <Label text="Employee Pincode"></Label>
+        <Input type= "Text" width="300px"></Input>
+
+        </f:content>
+        </f:SimpleForm>
+
+        <!-- Module 01 - Sample 2B -->
+        <MessageStrip
+				
+				text="Module 01 - (create a simple form using Simple Form Layout in 1 column)"
+				type="Information"
+				>
+		</MessageStrip>
+
+
+        <f:SimpleForm title=" SimpleForm Layout" columnsL="1" editable="true">
+
+        <f:content>
+
+        <core:Title text="Employee Details"></core:Title>
+            <Label text="Employee Id"></Label>
+            <Input type= "Text" width="300px"></Input>
+            <Label text="Employee Name"></Label>
+            <Input type= "Text" width="300px"></Input>
+            <Label text="Employee Level"></Label>
+            <Input type= "Text" width="300px"></Input>
+        <core:Title text="Contact Details"></core:Title>
+            <Label text="Employee Email"></Label>
+            <Input type= "Text" width="300px"></Input>
+            <Label text="Employee Ph. number"></Label>
+            <Input type= "Text" width="300px"></Input>
+            <Label text="Employee Pincode"></Label>
+            <Input type= "Text" width="300px"></Input>
+
+        </f:content>
+        </f:SimpleForm>
+
+         <!-- Module 01 - Sample 2C -->
+
+        <MessageStrip
+				
+				text="Module 01 -(create a simple form using Simple Form Layout 2 columns)"
+				type="Information"
+				>
+		</MessageStrip>
+
+
+        <f:SimpleForm title=" SimpleForm Layout" columnsL="2" editable="true">
+
+        <f:content>
+
+        <core:Title text="Employee Details"></core:Title>
+            <Label text="Employee Id"></Label>
+            <Input type= "Text" width="300px"></Input>
+            <Label text="Employee Name"></Label>
+            <Input type= "Text" width="300px"></Input>
+            <Label text="Employee Level"></Label>
+            <Input type= "Text" width="300px"></Input>
+        <core:Title text="Contact Details"></core:Title>
+            <Label text="Employee Email"></Label>
+            <Input type= "Text" width="300px"></Input>
+            <Label text="Employee Ph. number"></Label>
+            <Input type= "Text" width="300px"></Input>
+            <Label text="Employee Pincode"></Label>
+            <Input type= "Text" width="300px"></Input>
+
+        </f:content>
+        </f:SimpleForm>
+
+        <!-- Module 01 - Sample 3
+
+        <l:MatrixLayout id="myLayout" layoutFixed="false" columns="2" width="90%" widths="50%,50%">
+
+            <l:MatrixLayoutRow>
+
+                <l:MatrixLayoutCell>
+
+                    <Label text="Enter Employee ID" />
+
+            </l:MatrixLayoutCell>
+
+            <l:MatrixLayoutCell>
+
+                <Input type="Text"></Input>
+
+            </l:MatrixLayoutCell>
+
+            </l:MatrixLayoutRow>
+
+            <l:MatrixLayoutRow>
+
+            <l:MatrixLayoutcell>
+                <Label text="Enter Employee Name" />
+
+            </l:MatrixLayoutCell>
+
+            <l:MatrixLayoutCell>
+
+                <Input type="Text"></Input>
+
+            </l:MatrixLayoutCell>
+
+            </l: MatrixLayoutRow>
+
+            <l:MatrixLayoutRow>
+
+            <l:MatrixLayoutCell>
+
+            <Label text="Enter Employee Level" />
+
+            </l:MatrixLayoutCell>
+
+            <l:MatrixLayoutCell>
+
+                <Input type="Text"></Input>
+
+            </l:MatrixLayoutCell>
+
+            </l:MatrixLayoutRow>
+
+            <l:MatrixLayoutRow>
+
+            <l:MatrixLayoutCell>
+
+            <Label text="Enter Employee Email" />
+
+            </l:MatrixLayoutCell>
+
+            <l:MatrixLayoutCell>
+
+            <Input type="Text"></Input>
+
+            </l:MatrixLayoutCell>
+
+            </l:MatrixLayoutRow>
+
+            <l:MatrixLayoutRow>
+
+            <l:MatrixLayoutcell>
+
+            <Label text="Enter Employee Phone No. "/>
+
+            </l:MatrixLayoutcell>
+
+            <l:MatrixLayoutcell>
+
+            <Input type="Text"></Input>
+
+            </l:MatrixLayoutcell>
+
+            </l:MatrixLayoutRow>
+
+            <l:MatrixLayoutRow>
+
+            <l:MatrixLayoutcell>
+
+            <Label text="Enter Employee Pincode" />
+
+            </l:MatrixLayoutCell>
+
+            <l:MatrixLayoutCell>
+
+            <Input type="Text"></Input>
+
+            </l:MatrixLayoutCell>
+
+            </l:MatrixLayoutRow>
+
+            </l:MatrixLayout> -->
+
+            <!-- Module 01 - Activity 1(MessageToast) -->
+            <MessageStrip
+				
+				text="Module 01 - Activity 1(Create a Sample Application with a Button and Control-MessageToast)"
+				type="Information"
+				>
+		</MessageStrip>
+
+				<Button text="Click Me...." press="onPress" />
+
+            <!-- Module 01 - Activity 1(MessageBox) -->
+            <MessageStrip
+				
+				text="Module 01 - Activity 1(Create a Sample Application with a Button and Control-MessageBox)"
+				type="Information"
+				>
+		</MessageStrip>
+
+
+            <Button
+			text="Click Here..."
+			press=".onConfirmationMessageBoxPress"
+			width="280px"
+			ariaHasPopup="Dialog" />
+
+            <!-- Module 1 - Acitivity 2A -->
+            <MessageStrip
+				
+				text="Module 1 (Create a Form using GRID Layout)"
+				type="Information"
+				>
+		</MessageStrip>
+
+            <l:Grid defaultSpan="XL3 L3 M6 S12">
+                <l:content>
+                <Label text="Employee Id"></Label>
+                <Input type= "Text" width="300px"></Input>
+
+                <Label text="Employee Name"></Label>
+                <Input type= "Text" width="300px"></Input>
+
+                <Label text="Employee Level"></Label>
+                <Input type= "Text" width="300px"></Input>
+
+                <Label text="Employee Email"></Label>
+                <Input type= "Text" width="300px"></Input>
+
+                <Label text="Employee Ph. number"></Label>
+                <Input type= "Text" width="300px"></Input>
+
+                <Label text="Employee Pincode"></Label>
+                <Input type= "Text" width="300px"></Input>
+                
+                </l:content>
+				
+			</l:Grid>
+
+            <!-- Module 1 - Acitivity 2B -->
+            <MessageStrip
+				
+				text="Module 1 - (Create a Form using GRID Layout)"
+				type="Information"
+				>
+		</MessageStrip>
+
+
+            <l:Grid defaultSpan="XL12 L12 M12 S12">
+                <l:content>
+                <Label text="Employee Id"></Label>
+                <Input type= "Text" width="300px"></Input>
+
+                <Label text="Employee Name"></Label>
+                <Input type= "Text" width="300px"></Input>
+
+                <Label text="Employee Level"></Label>
+                <Input type= "Text" width="300px"></Input>
+
+                <Label text="Employee Email"></Label>
+                <Input type= "Text" width="300px"></Input>
+
+                <Label text="Employee Ph. number"></Label>
+                <Input type= "Text" width="300px"></Input>
+
+                <Label text="Employee Pincode"></Label>
+                <Input type= "Text" width="300px"></Input>
+                
+                </l:content>
+				
+			</l:Grid>
+
+
+            
+
+            
+                <!-- Module 2 Sample 1 -->
+            <!-- <f:SimpleForm title=" SimpleForm Layout" columnsL="2" editable="true" labelSpanM="3">
+
+            <f:content>
+
+            <Label text="Employee Id"></Label>
+            <Input id="idempid" type= "Text" width="300px"></Input>
+
+            <Label text="Employee Name"></Label>
+            <Input id="idname" type= "Text" width="300px"></Input>
+
+            <Label text="Employee Level"></Label>
+            <Input id="idlevel" type= "Text" width="300px"></Input>
+
+            <Label text="Employee Email"></Label>
+            <Input id="idemail" type= "Text" width="300px"></Input>
+
+            <Label text="Employee Ph. number"></Label>
+            <Input id="idphone" type= "Text" width="300px"></Input>
+
+            <Label text="Employee Pincode"></Label>
+            <Input id="idpincode" type= "Text" width="300px"></Input>
+
+            <Label ></Label>
+            <Button type="Emphasized" text="submit" press="onSubmit" width="100 px"/>
+            <Button type="Emphasized" text="submit" press="onSubmit"></Button>
+
+            </f:content>
+            </f:SimpleForm> -->
+
+
+            <MessageStrip
+				
+				text="Module 2 - All Activities and samples combined which is validation of given fields"
+				type="Information"
+				>
+		</MessageStrip>
+
+
+
+            <f:SimpleForm title=" SimpleForm Layout" columnsL="2" editable="true" labelSpanM="3">
+
+            <f:content>
+
+            <Label text="Employee Id"></Label>
+            <Input id="idempid" type= "Text" width="300px" maxLength="8"></Input>
+
+            <Label text="Employee Name"></Label>
+            <Input id="idname" type= "Text" width="300px"></Input>
+
+            <Label text="Employee Level"></Label>
+            <Input id="idlevel" type= "Text" width="300px"></Input>
+
+            <Label text="Employee Email"></Label>
+            <Input id="idemail" type= "Text" width="300px"></Input>
+
+            <Label text="Employee Ph. number"></Label>
+            <Input id="idphone" type= "Text" width="300px"></Input>
+
+            <Label text="Employee Pincode"></Label>
+            <Input id="idpincode" type= "Text" width="300px"></Input>
+
+            <Button type="Emphasized" text="submit" press="onSubmit"></Button>
+
+            </f:content>
+            </f:SimpleForm>
+
+            <!-- module 3 Activity 1 -->
+            <MessageStrip
+				
+				text="module 3 Activity 1(A Simple Login Page in SAP Web IDE and alert message pop up)"
+				type="Information"
+				>
+		</MessageStrip>
+
+            
+            <f:SimpleForm title=" SimpleForm Layout" columnsL="1" editable="true" labelSpanM="3" class="form">
+
+            <f:content>
+            <Label text="User Name"></Label>
+            <Input type= "Text" width="300px"></Input>
+            <Label text="Password"></Label>
+            <Input type= "Password" placeholder="password" width="300px"></Input>
+			<Button text="Submit" press="onPress1" />
+            </f:content>
+            </f:SimpleForm>
+           
+           <!-- Module 4 sample 1(layout editor) -->
+            <MessageStrip
+				
+				text="Module 4 sample 1(layout editor)"
+				type="Information"
+				>
+		</MessageStrip>
+            
+
+        
+            
+            <Text xmlns="sap.m" text="Input" id="text2"/>
+            
+
+            <Input xmlns="sap.m" id="input0"/>
+                
+
+            <DatePicker xmlns="sap.m" id="picker0"/>
+                
+
+            <SelectList id="list1">
+            
+
+            <items>
+            
+
+                <core:ListItem text="1" id="item2"/>
+            
+
+                <core:ListItem text="2" id="item1"/>
+            
+
+                <core:ListItem text="3" id="item0"/>
+            
+
+            </items>
+            
+
+        </SelectList><Slider xmlns="sap.m" value="40" id="slider0"/>
+            <Button xmlns="sap.m" text="Submit" id="button0" width="100%"/>
+
+            <!-- Module 4 sample 01 -->
+            
+            <MessageStrip
+				
+				text="Module 4 (Consumption of JSON Data in UI5 Application)"
+				type="Information"
+				>
+		</MessageStrip>
+         <VBox>
+                               <HBox>
+                                         <Label text="First Name" class="label label1" />
+                                         <Input value="{Task>/FirstName}"/>
+                               </HBox>
+                               <HBox>
+                                          <Label text="Last Name" class="label label1"/>
+                                          <Input value="{Task>/LastName}"/>
+                               </HBox>
+                               <HBox>
+                                           <Label text="Location" class="label label2"/>
+                                           <Input value="{Task>/Location}"/>
+                               </HBox>
+                               <HBox>
+                                            <Label text="Designation" class="label label3"/>
+                                            <Input value="{Task>/Designation}"/>
+                               </HBox>
+                </VBox>
+                
+                  <!-- Module 4  -->
+
+                    <!-- <List id="mylist" items="{/Categories}">
+	                             <StandardListItem title="{CategoryName}"/>
+	             	      </List> -->
+
+                <MessageStrip
+				
+				text="Module 5 (traversing views)"
+				type="Information"
+				></MessageStrip>
+
+                <Button text="Go to details page...." press="press1"></Button>
+
+
+                <MessageStrip
+				
+				text="Module 6 (Configuration of css file)"
+				type="Information"
+				></MessageStrip>
+                <VBox class="v">
+        <!-- <f:SimpleForm title=" SimpleForm Layout" columnsL="1" editable="true" labelSpanM="3" class="gg">
+        <f:content> -->
+        
+            <Label text="User Name"></Label>
+            <Input type= "Text" width="300px"></Input>
+            <Label class="l1" text="Password"></Label>
+            <Input type= "Password" placeholder="password" width="300px"></Input>
+			<Button text="Submit" press="onPress" class="bu" />
+            
+        
+        <!-- </f:content>
+        </f:SimpleForm> -->
+        </VBox>
+        <Label text=" "></Label>
+        <Label text=" "></Label>
+        <Label text=" "></Label>
+        <Label text=" "></Label>
+        <Label text=" "></Label>
+        </content>
+        
+    </Page>
+</mvc:View>
