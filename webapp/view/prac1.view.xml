@@ -8,7 +8,12 @@
      <Page id="page" title="{i18n>title}" class="page1">
      
         <content>
-        
+          <MessageStrip
+				
+				text="pull"
+				type="Information"
+				>
+		</MessageStrip>
         <!-- Module 01 - SAMPLE 1 -->
         <MessageStrip
 				
